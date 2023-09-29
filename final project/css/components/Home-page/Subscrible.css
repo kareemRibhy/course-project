@@ -1,0 +1,59 @@
+.subscribe {
+    padding: 5rem 0;
+}
+.subscribe .container{
+    display: grid;
+    place-items: center;
+grid-template-columns: 1fr 1.5fr;
+grid-template-rows: 1fr;
+gap: 1rem;
+}
+.subscribe .container h4{
+    color: #FDC800;
+    margin-bottom: 1rem;
+}
+.subscribe .container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #002147;
+    font-size: 48px;
+    margin-bottom: 1rem;
+}
+.subscribe-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    border: solid 1px #BDBDBD ;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px 0.5rem  ;
+    align-items: center;
+}
+.subscribe-box input{
+    border: none;
+    margin: 0 1rem;
+    flex: 1 0 120px;
+    outline: none;
+}
+
+.subscribe-box button{
+    flex: 1 0 140px;
+    color: #002147;
+    background-color: #FDC800;
+    padding: 0.8rem 1.7rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.subscribe-box button:hover{
+    background-color: #002147;
+    color: #fff;
+    transition: 0.5s;
+}
+
+@media (max-width:992px) {
+    .subscribe .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}

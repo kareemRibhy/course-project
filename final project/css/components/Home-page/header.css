@@ -1,0 +1,118 @@
+.Home_header {
+    background-color: #F0F4F9;
+    background-size: cover;
+    
+}
+
+header {
+    padding: 2rem 0;
+   
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+    scroll-behavior: smooth;
+
+}
+
+header .logo {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    animation:  header_show 2s 2s ease-in-out both;
+    transform: translateX(-200%);
+}
+
+header .logo h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+header .links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+    
+}
+
+
+.links nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.links .fa-bars {
+    font-size: 2rem;
+    color: #002147;
+    cursor: pointer;
+    display: none;
+    }
+    
+.links .fa-bars:hover + nav {
+      display: grid;
+      position: absolute;
+      top: 20vh;
+      left: 0;
+      background-color: #002147;
+      color: #fff;
+      width: 100%;
+      padding: 1rem;
+      text-align: center;
+      justify-content: center;
+      gap: 1rem;
+      z-index: 9;
+}
+.links nav a{
+    padding: 0.8rem 1.2rem;
+}
+
+.links nav a:hover{
+    background-color: #FDC800;
+    padding: 0.8rem 1.2rem;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.orange:hover{
+    background-color: #002147;
+    color: #fff;
+    transition: 0.5s;
+
+
+}
+
+.white:hover{
+    background-color: #FDC800;
+    color: #fff;
+    transition: 0.5s;
+}
+@keyframes header_show{
+
+    100%{
+    transform: translateX(0); 
+
+
+    }
+}
+    
+    @media (max-width:1168px) {
+        .links nav {
+        display: none;
+      }
+      .links .fa-bars {
+        display: block;
+      }
+      header .logo h3{
+        display: none;
+      }
+
+    }
+    
+

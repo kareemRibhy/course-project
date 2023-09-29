@@ -1,0 +1,47 @@
+@import "../../Globle/globle.css";
+@import "../Home-page/secondry_header.css";
+@import "../Home-page/header.css";
+@import "../Main-page/featured.css";
+@import "../Home-page/Subscrible.css";
+@import "../Home-page/info-links.css";
+
+
+header{
+    background-color: #F0F4F9;
+    background-size: cover;
+}
+main{
+    background-color: #F0F4F9;
+    background-size: cover;
+    min-height: 55vh;
+}
+
+main.course .main-title h3{
+    color: #FDC800;
+}
+main.course .main-title h1{
+    color:#002147;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    padding: 1rem 0 2rem;
+}
+.main-choice {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:  2rem 0;
+}
+.main-choice .choice label{
+    color: #002147;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-choice .choice select{
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: solid 1px #BDBDBD;
+    color: #002147;
+    width: 200px;
+
+}
+

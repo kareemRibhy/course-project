@@ -1,0 +1,59 @@
+.statistics{
+    background-color: #F0F4F9;
+    margin-top: 3rem;
+    
+    padding: 5rem 0;
+}
+.statistics .container{
+    background-image: url(../../../img/Home\ page/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    place-items: center;
+}
+.container .box{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 1rem;
+}
+.number{
+    display: grid;
+place-items: center;}
+.number h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #002147;
+    margin-bottom: 1rem;
+}
+.number h4{
+    color: #00B2B2;
+
+}
+
+@media (max-width:576px) {
+    .statistics .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+@media (min-width:576px) and (max-width:768px) {
+    .statistics .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+@media (min-width:768px) and (max-width:922px) {
+    .statistics .container{
+        grid-template-columns: repeat(3,1fr);
+    } 
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .statistics .container{
+        grid-template-columns: repeat(4,1fr);
+    }
+    
+}

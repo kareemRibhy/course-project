@@ -1,0 +1,46 @@
+.secondry_header{
+    background-color: #FDC800;
+    padding: 10px 0;
+}
+.secondry_header .contact p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.secondry_header .contact .location{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+   
+}
+.secondry_header .contact .email{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+}
+.secondry_header .contact{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    
+}
+.secondry_header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.secondry_header nav.social{
+    display: flex;
+    gap: 1.5rem;
+}
+.secondry_header nav.social a:hover{
+    color: #fff;
+    transform: scale(1.5);
+}
+
+
+
+@media (max-width:776px) {
+    .secondry_header{
+        display: none;
+    }
+}

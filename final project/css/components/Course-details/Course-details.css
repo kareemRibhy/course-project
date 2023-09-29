@@ -1,0 +1,49 @@
+@import "../../Globle/globle.css";
+@import "../Home-page/secondry_header.css";
+@import "../Home-page/header.css";
+@import "./Description.css";
+@import "../Home-page/feedback.css";
+@import "../Home-page/Subscrible.css";
+@import "../Home-page/info-links.css";
+
+
+
+header{
+    background-color: #F0F4F9;
+    background-size: cover;
+}
+main{
+    background-color: #F0F4F9;
+    background-size: cover;
+    min-height: 55vh;
+}
+
+main .main-title h3{
+    color: #FDC800;
+}
+main .main-title h1{
+    color:#002147;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 46px;
+    padding: 1rem 0 2rem;
+    max-width: 700px;
+}
+
+
+
+#feedback-3{
+    margin-top: 2rem;
+    background-color: #F0F4F9;
+}
+#card-3{
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+#card-b-3{
+    z-index: 2;
+}
+
+
+#footer-3{
+    flex-wrap: wrap;
+}
